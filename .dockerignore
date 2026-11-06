@@ -1,0 +1,9 @@
+.git/
+.vercel/
+.vs/
+.env.local
+**/bin/
+**/obj/
+PaymentAPI/bin/
+PaymentAPI/obj/
+**/.env.local

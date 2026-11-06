@@ -55,6 +55,8 @@ nunit-*.xml
 [Rr]eleasePS/
 dlldata.c
 
+
+**/.env.local
 # Benchmark Results
 BenchmarkDotNet.Artifacts/
 
@@ -361,3 +363,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+.vercel
+.env*
