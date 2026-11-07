@@ -51,7 +51,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseCors(options =>
-options.WithOrigins("http://localhost:4200")
+options.WithOrigins("https://payment-details-app.vercel.app")
+            
 .AllowAnyMethod()
 .AllowAnyHeader()
 );
